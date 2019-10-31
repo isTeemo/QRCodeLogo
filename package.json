@@ -1,27 +1,27 @@
 {
-  "name": "qr-with-logo",
-  "version": "1.0.4",
+  "name": "qrcodeforlogo",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZachHappel/qr-with-logo.git"
+    "url": "git+https://github.com/isTeemo/QRCodeLogo.git"
   },
   "keywords": [
     "qrcode",
     "qr",
     "logo",
     "QR code",
-    "QR code with logo"
+    "QR code logo"
   ],
-  "author": "Zacharie Happel",
+  "author": "Captain Teemo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZachHappel/qr-with-logo/issues"
+    "url": "https://github.com/isTeemo/QRCodeLogo/issues"
   },
-  "homepage": "https://github.com/ZachHappel/qr-with-logo#readme",
+  "homepage": "https://github.com/isTeemo/QRCodeLogo#readme",
   "description": "",
   "dependencies": {
     "qrcode": "^1.4.1",

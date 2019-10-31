@@ -1,4 +1,4 @@
-**_QRCodeLogo_** is a Node package developed to allow for the creation of QR codes with embedded logo images.
+**_qrcodeforlogo_** is a Node package developed to allow for the creation of QR codes with embedded logo images.
 
 
 ## Installation
@@ -6,13 +6,13 @@
 Use node package manager ([npm](https://www.npmjs.com/get-npm)) to install  install QRLogo.
 
 ```bash
-npm install --save QRCodeLogo
+npm install --save qrcodeforlogo
 ```
 
 ## Saving as PNG
 
 ```node
-const QRLogo = require('QRCodeLogo');
+const QRLogo = require('qrcodeforlogo');
 
 const data = JSON.stringify({name: "Zacharie Happel",
               job:  "Student/Intern", 
@@ -25,7 +25,7 @@ await QRLogo.generateQRWithLogo(data, "logo.png", {}, "PNG", "qrlogo.png")
 ## Base64 
 
 ```node
-const QRLogo = require('QRCodeLogo');
+const QRLogo = require('qrcodeforlogo');
 
 const data = JSON.stringify({name: "Zacharie Happel",
               job:  "Student/Intern", 
